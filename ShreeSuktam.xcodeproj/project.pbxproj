@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FE9D9AAEB49695CEC37D91E /* Pods_ShreeSuktam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20F7F00D72E9FF937CF4A0B /* Pods_ShreeSuktam.framework */; };
 		F93C98871EA76695004C1D12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C98861EA76695004C1D12 /* AppDelegate.swift */; };
 		F93C98891EA76695004C1D12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C98881EA76695004C1D12 /* ViewController.swift */; };
 		F93C988C1EA76695004C1D12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93C988A1EA76695004C1D12 /* Main.storyboard */; };
@@ -15,11 +16,15 @@
 		F93C989A1EA7814C004C1D12 /* suktam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F93C98991EA7814C004C1D12 /* suktam.mp3 */; };
 		F97AC6A21ED59B25005D9CE3 /* shankh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F97AC6A11ED59B25005D9CE3 /* shankh.mp3 */; };
 		F97AC6A41ED59B3D005D9CE3 /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F97AC6A31ED59B3D005D9CE3 /* bell.mp3 */; };
+		F997F0811EEE7A3500890204 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F997F0801EEE7A3500890204 /* libsqlite3.tbd */; };
 		F9D114BA1ECDB258008F289F /* Lyricsview.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D114B91ECDB258008F289F /* Lyricsview.xib */; };
 		F9D114BC1ECDC224008F289F /* lyricsview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D114BB1ECDC224008F289F /* lyricsview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37E1497C9403230BB965B101 /* Pods-ShreeSuktam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShreeSuktam.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShreeSuktam/Pods-ShreeSuktam.release.xcconfig"; sourceTree = "<group>"; };
+		3F2ADD0973ACCBDAFF81C759 /* Pods-ShreeSuktam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShreeSuktam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShreeSuktam/Pods-ShreeSuktam.debug.xcconfig"; sourceTree = "<group>"; };
+		A20F7F00D72E9FF937CF4A0B /* Pods_ShreeSuktam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShreeSuktam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93C98831EA76695004C1D12 /* ShreeSuktam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShreeSuktam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93C98861EA76695004C1D12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F93C98881EA76695004C1D12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +35,7 @@
 		F93C98991EA7814C004C1D12 /* suktam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = suktam.mp3; sourceTree = "<group>"; };
 		F97AC6A11ED59B25005D9CE3 /* shankh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shankh.mp3; sourceTree = "<group>"; };
 		F97AC6A31ED59B3D005D9CE3 /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
+		F997F0801EEE7A3500890204 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F9D114B91ECDB258008F289F /* Lyricsview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Lyricsview.xib; sourceTree = "<group>"; };
 		F9D114BB1ECDC224008F289F /* lyricsview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lyricsview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,17 +45,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F997F0811EEE7A3500890204 /* libsqlite3.tbd in Frameworks */,
+				1FE9D9AAEB49695CEC37D91E /* Pods_ShreeSuktam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9DBA75385745E4281F173C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F997F0801EEE7A3500890204 /* libsqlite3.tbd */,
+				A20F7F00D72E9FF937CF4A0B /* Pods_ShreeSuktam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D62A931B143F886E4FAC4DEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F2ADD0973ACCBDAFF81C759 /* Pods-ShreeSuktam.debug.xcconfig */,
+				37E1497C9403230BB965B101 /* Pods-ShreeSuktam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F93C987A1EA76695004C1D12 = {
 			isa = PBXGroup;
 			children = (
 				F93C98851EA76695004C1D12 /* ShreeSuktam */,
 				F93C98841EA76695004C1D12 /* Products */,
+				D62A931B143F886E4FAC4DEF /* Pods */,
+				B9DBA75385745E4281F173C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F93C98951EA76695004C1D12 /* Build configuration list for PBXNativeTarget "ShreeSuktam" */;
 			buildPhases = (
+				CBE4F501076FAC035F8BB19E /* [CP] Check Pods Manifest.lock */,
 				F93C987F1EA76695004C1D12 /* Sources */,
 				F93C98801EA76695004C1D12 /* Frameworks */,
 				F93C98811EA76695004C1D12 /* Resources */,
+				86C2986EE08CA0A4F6E7E692 /* [CP] Embed Pods Frameworks */,
+				CE763FA69269DFAE186B1C51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +189,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86C2986EE08CA0A4F6E7E692 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShreeSuktam/Pods-ShreeSuktam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE4F501076FAC035F8BB19E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE763FA69269DFAE186B1C51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShreeSuktam/Pods-ShreeSuktam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F93C987F1EA76695004C1D12 /* Sources */ = {
@@ -285,6 +364,7 @@
 		};
 		F93C98961EA76695004C1D12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2ADD0973ACCBDAFF81C759 /* Pods-ShreeSuktam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GT646433WX;
@@ -299,6 +379,7 @@
 		};
 		F93C98971EA76695004C1D12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E1497C9403230BB965B101 /* Pods-ShreeSuktam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GT646433WX;
