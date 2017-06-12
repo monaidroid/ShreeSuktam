@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="lyricsview" customModule="ShreeSuktam" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trans_bg" translatesAutoresizingMaskIntoConstraints="NO" id="REv-aR-a4W">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="320"/>
+                </imageView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcE-OU-xnv">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="320"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="300" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGg-8c-5d9" userLabel="lbllyrics">
+                            <rect key="frame" x="8" y="8" width="359" height="2394"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="359" id="oCE-JC-dS6"/>
+                            </constraints>
+                            <string key="text">हरिः ॐ हिरण्यवर्णां हरिणीं सुवर्णरजतस्र​जाम् ।    
+चन्द्रां हिरण्मयीं लक्ष्मीं जातवेदो म आवह ॥१॥       
+
+तां म आवह जातवेदो लक्ष्मीमनपगामिनीम् ।    
+यस्यां हिरण्यं विन्देयं गामश्वं पुरुषानहम् ॥२॥        
+
+अश्वपूर्वां रथमध्यां हस्तिनादप्रबोधिनीम् ।    
+श्रियं देवीमुपह्वये श्रीर्मा देवी जुषताम् ॥३॥        
+
+कां सोस्मितां हिरण्यप्राकारामार्द्रां ज्वलन्तीं तृप्तां तर्पयन्तीम् ।    
+पद्मे स्थितां पद्मवर्णां तामिहोपह्वये श्रियम् ॥४॥        
+
+चंद्रा प्रभासां यशसा ज्वलन्तीं श्रियम लोके देवजुष्टामुदाराम  ।    
+तां पद्मिनीमीं शरणमहं प्रपद्येऽलक्ष्मीर्मे नश्यतां त्वां वृणे ॥५॥        
+
+आदित्यवर्णे तपसोऽधिजातो वनस्पतिस्तव वृक्षोऽथ बिल्वः ।    
+तस्य फलानि तपसानुदन्तु मायान्तरायाश्च बाह्या अलक्ष्मीः ॥६॥        
+
+उपैतु मां देवसखः कीर्तिश्च मणिना सह ।    
+प्रादुर्भूतोऽस्मि राष्ट्रेऽस्मिन् कीर्तिमृद्धिं ददातु मे ॥७॥        
+
+क्षुत्पिपासामलां ज्येष्ठामलक्ष्मीं नाशयाम्यहम् ।    
+अभूतिमसमृद्धिं च सर्वां निर्णुद में गृहात् ॥८॥        
+
+गन्धद्वारां दुराधर्षां नित्यपुष्टां करीषिणीम् ।    
+ईश्वरींग् सर्वभूतानां तामिहोपह्वये श्रियम् ॥९॥        
+
+मनसः काममाकूतिं वाचः सत्यमशीमहि ।    
+पशूनां रूपमन्नस्य मयि श्रीः श्रयतां यशः ॥१०॥        
+
+कर्दमेन प्रजाभूता मयि सम्भव कर्दम ।    
+श्रियं वासय मे कुले मातरं पद्ममालिनीम् ॥११॥        
+
+आपः सृजन्तु स्निग्धानि चिक्लीत वस में गृहे ।    
+नि च देवी मातरं श्रियं वासय में कुले ॥१२॥        
+
+आर्द्रां पुष्करिणीं पुष्टिं पिङ्गलां पद्ममालिनीम् ।    
+चन्द्रां हिरण्मयीं लक्ष्मीं जातवेदो म आवह ॥१३॥        
+
+आर्द्रां यः करिणीं यष्टिं सुवर्णां हेममालिनीम् ।    
+सूर्यां हिरण्मयीं लक्ष्मीं जातवेदो म आवह ॥१४॥        
+
+तां म आवह जातवेदो लक्ष्मीमनपगामिनीम् ।    
+यस्यां हिरण्यं प्रभूतं गावो दास्योऽश्वान् विन्देयं पूरुषानहम् ॥१५॥        
+
+यः शुचिः प्रयतो भूत्वा जुहुयादाज्यमन्वहम् ।    
+श्रियः पञ्चदशर्चं च श्रीकामः सततं जपेत् ॥१६॥        
+
+पद्मानने पद्म ऊरु पद्माक्षी पद्मासम्भवे ।    
+त्वं मां भजस्व पद्माक्षी येन सौख्यं लभाम्यहम् ॥१७॥        
+
+अश्वदायि गोदायि धनदायि महाधने ।    
+धनं मे जुषताम् देवी सर्वकामांश्च देहि मे ॥१८॥        
+
+पुत्रपौत्र धनं धान्यं हस्त्यश्वादिगवे रथम् ।    
+प्रजानां भवसि माता आयुष्मन्तं करोतु माम् ॥१९॥        
+
+धनमग्निर्धनं वायुर्धनं सूर्यो धनं वसुः ।    
+धनमिन्द्रो बृहस्पतिर्वरुणं धनमश्नुते ॥२०॥        
+
+वैनतेय सोमं पिब सोमं पिबतु वृत्रहा ।    
+सोमं धनस्य सोमिनो मह्यं ददातु सोमिनः ॥२१॥        
+
+न क्रोधो न च मात्सर्य न लोभो नाशुभा मतिः ।    
+भवन्ति कृतपुण्यानां भक्तानां श्रीसूक्तं जपेत्सदा ॥२२॥        
+
+वर्षन्तु ते विभावरि दिवो अभ्रस्य विद्युतः ।    
+रोहन्तु सर्वबीजान्यव ब्रह्म द्विषो जहि ॥२३॥        
+
+पद्मप्रिये पद्म पद्महस्ते पद्मालये पद्मदलायताक्षि ।    
+विश्वप्रिये विष्णु मनोऽनुकूले त्वत्पादपद्मं मयि सन्निधत्स्व ॥२४॥        
+
+या सा पद्मासनस्था विपुलकटितटी पद्मपत्रायताक्षी ।    
+गम्भीरा वर्तनाभिः स्तनभर नमिता शुभ्र वस्त्रोत्तरीया ॥२५॥        
+
+लक्ष्मीर्दिव्यैर्गजेन्द्रैर्मणिगणखचितैस्स्नापिता हेमकुम्भैः ।    
+नित्यं सा पद्महस्ता मम वसतु गृहे सर्वमाङ्गल्ययुक्ता ॥२६॥        
+
+लक्ष्मीं क्षीरसमुद्र राजतनयां श्रीरङ्गधामेश्वरीम् ।    
+दासीभूतसमस्त देव वनितां लोकैक दीपांकुराम् ॥२७॥        
+
+श्रीमन्मन्दकटाक्षलब्ध विभव ब्रह्मेन्द्रगङ्गाधराम् ।    
+त्वां त्रैलोक्य कुटुम्बिनीं सरसिजां वन्दे मुकुन्दप्रियाम् ॥२८॥        
+
+सिद्धलक्ष्मीर्मोक्षलक्ष्मीर्जयलक्ष्मीस्सरस्वती ।    
+श्रीलक्ष्मीर्वरलक्ष्मीश्च प्रसन्ना मम सर्वदा ॥२९॥        
+
+वरांकुशौ पाशमभीतिमुद्रां करैर्वहन्तीं कमलासनस्थाम् ।    
+बालार्क कोटि प्रतिभां त्रिणेत्रां भजेहमाद्यां जगदीस्वरीं त्वाम् ॥३०॥        
+
+सर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थ साधिके ।    
+शरण्ये त्र्यम्बके देवि नारायणि नमोऽस्तु ते    
+नारायणि नमोऽस्तु ते   नारायणि नमोऽस्तु ते  ॥३१॥        
+
+सरसिजनिलये सरोजहस्ते धवलतरांशुक गन्धमाल्यशोभे ।    
+भगवति हरिवल्लभे मनोज्ञे त्रिभुवनभूतिकरि प्रसीद मह्यम् ॥३२॥  
+
+विष्णुपत्नीं क्षमां देवीं माधवीं माधवप्रियाम् । 
+विष्णोः प्रियसखीं देवीं नमाम्यच्युतवल्लभाम् ॥३३॥  
+
+महालक्ष्मीः च विह्म्हे विष्णुपत्नी च धीमहि
+तन्नो लक्ष्मीः प्रचोदयात् ॥३४॥  
+
+श्रीवर्चस्यमायुष्यमारोग्यमाविधात् पवमानं महियते । 
+धनं धान्यं पशुं बहुपुत्रलाभं शतसंवत्सरं दीर्घमायुः ॥३५॥  
+
+ऋणरोगादिदारिद्र्यपापक्षुदपमृत्यवः । 
+भयशोकमनस्तापा नश्यन्तु मम सर्वदा ॥३६॥  
+
+य एवं वेद ॐ महादेव्यै च विम्ह्मे विष्णुपत्नीं च धीमहि । 
+तन्नो लक्ष्मीः प्रचोदयात् ॐ शान्तिः शान्तिः शान्तिः ॥३७॥  
+
+</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="TGg-8c-5d9" secondAttribute="bottom" constant="8" id="Lnk-Sy-k3Y"/>
+                        <constraint firstAttribute="trailing" secondItem="TGg-8c-5d9" secondAttribute="trailing" constant="8" id="PHq-Hg-Qjx"/>
+                        <constraint firstItem="TGg-8c-5d9" firstAttribute="leading" secondItem="fcE-OU-xnv" secondAttribute="leading" constant="8" id="TGq-Vd-7pP"/>
+                        <constraint firstItem="TGg-8c-5d9" firstAttribute="top" secondItem="fcE-OU-xnv" secondAttribute="top" constant="8" id="nbs-Mc-H8z"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="TGg-8c-5d9" firstAttribute="height" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="height" id="ElP-Ws-jzu"/>
+                <constraint firstItem="fcE-OU-xnv" firstAttribute="leading" secondItem="REv-aR-a4W" secondAttribute="leading" id="KET-QH-qUx"/>
+                <constraint firstItem="fcE-OU-xnv" firstAttribute="trailing" secondItem="REv-aR-a4W" secondAttribute="trailing" id="U0R-9j-nvO"/>
+                <constraint firstItem="fcE-OU-xnv" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="V9U-DR-zdG"/>
+                <constraint firstItem="REv-aR-a4W" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hgg-Yj-EZd"/>
+                <constraint firstItem="fcE-OU-xnv" firstAttribute="top" secondItem="REv-aR-a4W" secondAttribute="top" id="jzo-bM-UIf"/>
+                <constraint firstItem="REv-aR-a4W" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qXm-wh-hGS"/>
+                <constraint firstAttribute="trailing" secondItem="REv-aR-a4W" secondAttribute="trailing" id="ttx-gb-2co"/>
+                <constraint firstAttribute="bottom" secondItem="REv-aR-a4W" secondAttribute="bottom" id="yHR-dj-eB8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgview" destination="REv-aR-a4W" id="S2p-Wk-LDP"/>
+                <outlet property="lbllyrics" destination="TGg-8c-5d9" id="XtK-It-bv0"/>
+                <outlet property="lyricsscrollview" destination="fcE-OU-xnv" id="17P-Az-2TT"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="trans_bg" width="48" height="43"/>
+    </resources>
+</document>
